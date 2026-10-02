@@ -18,7 +18,7 @@ export default {
   data: () => ({
     cuestionario: {
       tema:
-        'Desafío integral: diseño, desarrollo y calidad de aplicaciones web',
+        'Desafío integral: diseño, desarrollo y calidad de aplicaciones <em>web</em>',
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> evaluar y afianzar conocimientos relacionados con el diseño, desarrollo y calidad de aplicaciones <em>web</em>, teniendo en cuenta los principios, técnicas, procedimientos y criterios aplicables en su construcción y validación.',
@@ -29,7 +29,7 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es el propósito fundamental del aseguramiento de la calidad (Quality Assurance - QA) en el desarrollo de software?',
+            '¿Cuál es el propósito fundamental del aseguramiento de la calidad (Quality Assurance - QA) en el desarrollo de <em>software?</em>',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -42,7 +42,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Evaluar y afianzar conocimientos sobre el diseño, desarrollo, construcción y validación de aplicaciones web.',
+                'Evaluar y afianzar conocimientos sobre el diseño, desarrollo, construcción y validación de aplicaciones <em>web</em>.',
               esCorrecta: true,
             },
             {
@@ -59,7 +59,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los conceptos relacionados con el diseño, desarrollo y calidad de aplicaciones web.',
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los conceptos relacionados con el diseño, desarrollo y calidad de aplicaciones 𝘸𝘦𝘣.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -112,7 +112,7 @@ export default {
             {
               id: 'b',
               texto:
-                'Verificar que la historia de usuario cumpla los criterios y condiciones necesarios para iniciar el sprint.',
+                'Verificar que la historia de usuario cumpla los criterios y condiciones necesarios para iniciar el <em>sprint</em>.',
               esCorrecta: true,
             },
             {
@@ -124,7 +124,7 @@ export default {
             {
               id: 'd',
               texto:
-                'Finalizar la fase de pruebas de penetración (penetration testing).',
+                'Finalizar la fase de pruebas de penetración (<em>penetration testing</em>).',
               esCorrecta: false,
             },
           ],
@@ -152,7 +152,8 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Prueba de carga y estrés (performance / stress testing).',
+              texto:
+                'Prueba de carga y estrés (<em>performance / stress testing</em>).',
               esCorrecta: true,
             },
             {
@@ -169,25 +170,26 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué diferencia a un mockup de un wireframe en el proceso de prototipado de aplicaciones?',
+            '¿Qué diferencia a un <em>mockup</em> de un <em>wireframe</em> en el proceso de prototipado de aplicaciones?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'El wireframe incluye imágenes reales y colores finales, mientras que el mockup es solo a mano alzada.',
+                'El <em>wireframe</em> incluye imágenes reales y colores finales, mientras que el <em>mockup</em> es solo a mano alzada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'El mockup contiene toda la lógica de backend programada.',
+              texto:
+                'El <em>mockup</em> contiene toda la lógica de <em>backend</em> programada.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'El wireframe representa la estructura básica de baja fidelidad, mientras que el mockup aporta alta fidelidad gráfica.',
+                'El <em>wireframe</em> representa la estructura básica de baja fidelidad, mientras que el <em>mockup</em> aporta alta fidelidad gráfica.',
               esCorrecta: true,
             },
             {
@@ -221,12 +223,12 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Wireflow.',
+              texto: '<em>Wireflow.</em>',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Sketch a lápiz.',
+              texto: '<em>Sketch</em> a lápiz.',
               esCorrecta: false,
             },
           ],
@@ -238,7 +240,7 @@ export default {
         {
           id: 7,
           texto:
-            'En el ciclo de vida del desarrollo de software (SDLC), ¿qué caracteriza al modelo en cascada (waterfall)?',
+            'En el ciclo de vida del desarrollo de <em>software</em> (SDLC), ¿qué caracteriza al modelo en cascada (<em>waterfall</em>)?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -308,18 +310,18 @@ export default {
         {
           id: 9,
           texto:
-            '¿Qué documento formal especifica el alcance, estrategia, recursos, entorno y cronograma de las actividades de prueba de un proyecto de software?',
+            '¿Qué documento formal especifica el alcance, estrategia, recursos, entorno y cronograma de las actividades de prueba de un proyecto de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Plan de Pruebas (test plan).',
+              texto: 'Plan de Pruebas (<em>test plan</em>).',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Historial de commits de Git.',
+              texto: 'Historial de <em>commits</em> de Git.',
               esCorrecta: false,
             },
             {
@@ -341,7 +343,7 @@ export default {
         {
           id: 10,
           texto:
-            'En el desarrollo frontend moderno, ¿cuál es la función de la etiqueta semántica HTML5 <main>?',
+            'En el desarrollo <em>frontend</em> moderno, ¿cuál es la función de la etiqueta semántica HTML5 <main>?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -375,7 +377,7 @@ export default {
         {
           id: 11,
           texto:
-            '¿Qué formato de imagen moderno es altamente recomendado para la web por ofrecer altos niveles de compresión con y sin pérdida, manteniendo excelente calidad visual?',
+            '¿Qué formato de imagen moderno es altamente recomendado para la <em>web</em> por ofrecer altos niveles de compresión con y sin pérdida, manteniendo excelente calidad visual?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -441,14 +443,14 @@ export default {
         {
           id: 13,
           texto:
-            '¿Cuál es una función de la estructuración semántica mediante etiquetas HTML5 en el contenido web?',
+            '¿Cuál es una función de la estructuración semántica mediante etiquetas HTML5 en el contenido <em>web</em>?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Facilitar la interpretación del contenido por tecnologías de asistencia y crawlers de búsqueda.',
+                'Facilitar la interpretación del contenido por tecnologías de asistencia y <em>crawlers</em> de búsqueda.',
               esCorrecta: true,
             },
             {
@@ -478,7 +480,7 @@ export default {
         {
           id: 14,
           texto:
-            '¿Qué protocolo garantiza que la información transmitida entre el navegador web del usuario y el servidor viaje cifrada mediante TLS/SSL?',
+            '¿Qué protocolo garantiza que la información transmitida entre el navegador <em>web</em> del usuario y el servidor viaje cifrada mediante TLS/SSL?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -548,13 +550,14 @@ export default {
         {
           id: 16,
           texto:
-            'En la maquetación web, ¿qué técnica se basa en el uso de Media Queries de CSS para adaptar el layout según la resolución del dispositivo?',
+            'En la maquetación <em>web</em>, ¿qué técnica se basa en el uso de Media Queries de CSS para adaptar el <em>layout</em> según la resolución del dispositivo?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Diseño web responsivo (responsive web design).',
+              texto:
+                'Diseño <em>web</em> responsivo (<em>responsive web design</em>).',
               esCorrecta: true,
             },
             {
@@ -614,7 +617,7 @@ export default {
         {
           id: 18,
           texto:
-            '¿Qué significa la "definición de hecho" (Definition of Done - DoD) para un equipo de desarrollo de software?',
+            '¿Qué significa la "definición de hecho" (Definition of Done - DoD) para un equipo de desarrollo de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -687,7 +690,7 @@ export default {
         {
           id: 20,
           texto:
-            'En el ámbito de las bases de datos para contenido web, ¿cuál es la función de un sistema de gestión de bases de datos relacionales (RDBMS) como MySQL o PostgreSQL?',
+            'En el ámbito de las bases de datos para contenido <em>web</em>, ¿cuál es la función de un sistema de gestión de bases de datos relacionales (RDBMS) como MySQL o PostgreSQL?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -713,6 +716,10 @@ export default {
               esCorrecta: false,
             },
           ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia una adecuada comprensión de los conceptos relacionados con el diseño, desarrollo y calidad de aplicaciones web.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:

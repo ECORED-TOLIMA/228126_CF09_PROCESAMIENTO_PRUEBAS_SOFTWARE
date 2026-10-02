@@ -28,11 +28,13 @@
           figure
             img(src='@/assets/curso/intro/img-03.svg', alt='')
 
+      p.mb-4 Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
+      
       .row.justify-content-center.align-items-center           
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/olXGxMZ8Q-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

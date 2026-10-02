@@ -116,42 +116,42 @@
                   th(data-aos="fade-down")(style= "width: 25%") Caso de Uso recomendado
               tbody
                 tr
-                  td(data-aos="fade-down") #[b Texto / estructura]
+                  td(data-aos="fade-down") #[b Texto / estructura.]
                   td(data-aos="fade-down") .html / .htm
                   td(data-aos="fade-down") Lenguaje de marcado de hipertexto estandarizado.
                   td(data-aos="fade-down") Estructura base de páginas <em>web</em>.
                 tr
-                  td(data-aos="fade-down") #[b Estilos]
+                  td(data-aos="fade-down") #[b Estilos.]
                   td(data-aos="fade-down") .css
                   td(data-aos="fade-down") Hojas de estilo en cascada para la capa visual.
                   td(data-aos="fade-down") Diagramación, diseño y animación.
                 tr
-                  td(data-aos="fade-down") #[b Lógica del lado del cliente (#[em frontend])]
+                  td(data-aos="fade-down") #[b Lógica del lado del cliente (#[em frontend]).]
                   td(data-aos="fade-down") .js / .mjs
                   td(data-aos="fade-down") Lenguaje de programación interpretado en cliente.
                   td(data-aos="fade-down") Interactividad y dinamismo UI.
                 tr
-                  td(data-aos="fade-down") #[b Imagen vectorial]
+                  td(data-aos="fade-down") #[b Imagen vectorial.]
                   td(data-aos="fade-down") .svg
                   td(data-aos="fade-down") Gráficos basados en XML, escalables sin pérdida.
                   td(data-aos="fade-down") Logotipos, íconos, diagramas e ilustraciones.
                 tr
-                  td(data-aos="fade-down") #[b Imagen ráster]
+                  td(data-aos="fade-down") #[b Imagen ráster.]
                   td(data-aos="fade-down") .<em>web</em>p / .avif
                   td(data-aos="fade-down") Formatos modernos de alta compresión con o sin pérdida.
                   td(data-aos="fade-down") Fotografías, <em>banners</em> e imágenes complejas.
                 tr
-                  td(data-aos="fade-down") #[b Imagen en formato tradicional]
+                  td(data-aos="fade-down") #[b Imagen en formato tradicional.]
                   td(data-aos="fade-down") .jpg / .png / .gif
                   td(data-aos="fade-down") Formatos tradicionales ampliamente compatibles.
                   td(data-aos="fade-down") Compatibilidad con navegadores antiguos.
                 tr
-                  td(data-aos="fade-down") #[b Tipografía #[em web]]
+                  td(data-aos="fade-down") #[b Tipografía #[em web].]
                   td(data-aos="fade-down") .woff2 / .woff
                   td(data-aos="fade-down") Formato comprimido optimizado para la <em>web</em>.
                   td(data-aos="fade-down") Fuentes tipográficas personalizadas.
                 tr
-                  td(data-aos="fade-down") #[b Datos / intercambio]
+                  td(data-aos="fade-down") #[b Datos / intercambio.]
                   td(data-aos="fade-down") .json / .xml
                   td(data-aos="fade-down") Formatos livianos para estructuración e intercambio de datos.
                   td(data-aos="fade-down") Consumo de APIs REST y bases de datos NoSQL.
@@ -407,7 +407,7 @@
                   td(data-aos="fade-down") Incluir: aviso de <em>copyright</em> y la exención de responsabilidad original.
                   td(data-aos="fade-down") Librerías y proyectos de código abierto distribuidos bajo licencia MIT (React).
                 tr
-                  td(data-aos="fade-down") #[b Licencia GNU GPL v3]
+                  td(data-aos="fade-down") #[b Licencia GNU GPL v3.]
                   td(data-aos="fade-down") Uso y modificación libre del código fuente.
                   td(data-aos="fade-down") Copyleft: si se distribuye una versión derivada, debe mantenerse la licencia GPL v3 y facilitarse el código fuente correspondiente.
                   td(data-aos="fade-down") <em>Software</em> y proyectos distribuidos bajo GNU GPL v3 (WordPress).
@@ -436,13 +436,12 @@
       p.mb-4 Para gestionar el contenido almacenado, pueden emplearse diferentes tipos de bases de datos y herramientas de acceso a la información, de acuerdo con las características y necesidades de cada aplicación:
 
       TabsC.color-acento-botones.mb-4
-        .py-3.py-md-4(titulo="Pruebas unitarias")
+        .py-3.py-md-4(titulo="Bases de datos relacionales (SQL)")
           .row
             .col-md-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t4/img-14.png', alt='')
             .col-md-7
-              p Bases de datos relacionales (SQL) 
               ul.lista-ul.mb-0
                 li.mb-0 
                   i.lista-ul__vineta
@@ -452,15 +451,14 @@
                   | Estructura: esquemas organizados en tablas, filas y columnas relacionadas mediante claves primarias (PK) y foráneas (FK). 
                 li.mb-0 
                   i.lista-ul__vineta
-                  | Caso de uso: sistemas que requieren alta consistencia transaccional y cumplimiento de propiedades ACID, como plataformas de comercio
+                  | Caso de uso: sistemas que requieren alta consistencia transaccional y cumplimiento de propiedades ACID, como plataformas de comercio electrónico o aplicaciones financieras. 
 
-        .py-3.py-md-4(titulo="Pruebas de Integración")
+        .py-3.py-md-4(titulo="Bases de datos no relacionales (NoSQL)")
           .row
             .col-md-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t4/img-15.png', alt='')
             .col-md-7
-              p Bases de datos no relacionales (NoSQL):
               ul.lista-ul.mb-0
                 li.mb-0 
                   i.lista-ul__vineta
@@ -471,13 +469,12 @@
                   i.lista-ul__vineta
                   | Caso de uso: gestores de contenido (CMS), <em>blogs</em>, redes sociales y aplicaciones que manejan grandes volúmenes de información con estructuras variables. 
 
-        .py-3.py-md-4(titulo="Pruebas de sistema")
+        .py-3.py-md-4(titulo="Mapeo objeto-relacional (ORM) y mapeo objeto-documento (ODM)")
           .row
             .col-md-5.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t4/img-16.png', alt='')
             .col-md-7
-              p Mapeo objeto-relacional (ORM) y mapeo objeto-documento (ODM): 
               ul.lista-ul.mb-0
                 li.mb-0 
                   i.lista-ul__vineta

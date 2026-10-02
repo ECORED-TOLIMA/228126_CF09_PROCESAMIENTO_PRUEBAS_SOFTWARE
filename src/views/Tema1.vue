@@ -75,7 +75,7 @@
                   +------------------------------------>
                                 Fase del SDLC
 
-      p.mb-4 Bajo este principio surge el enfoque shift-left testing (desplazar las pruebas a la izquierda), el cual promueve la ejecución de actividades de aseguramiento de calidad desde la concepción misma del requerimiento. Probar tempranamente previene la propagación de ambigüedades y errores arquitectónicos hacia las fases de codificación y despliegue.
+      p.mb-4 Bajo este principio surge el enfoque #[em shift-left testing] (desplazar las pruebas a la izquierda), el cual promueve la ejecución de actividades de aseguramiento de calidad desde la concepción misma del requerimiento. Probar tempranamente previene la propagación de ambigüedades y errores arquitectónicos hacia las fases de codificación y despliegue.
 
       .row.align-items-center.mb-4(data-aos="zoom-in")
         .col-auto.pe-0(style="z-index:2")
@@ -438,8 +438,8 @@
             p.mb-4 El siguiente ejemplo muestra cómo una necesidad expresada mediante una historia de usuario puede transformarse en criterios de aceptación verificables. Primero se plantea el requerimiento desde la perspectiva del usuario y, posteriormente, se estructura mediante la sintaxis Gherkin, definiendo escenarios que permiten comprobar el comportamiento esperado del sistema:
             .cajon.cajon.C01.color-primario.px-4.py-3.mb-4
               p(data-aos="fade-down") #[b Historia de usuario]
-              p.mb-0 #[b Como] cliente registrado en la tienda virtual,
-              p.mb-0 #[b Quiero] aplicar un código de descuento promocional en la pantalla de pago,
+              p.mb-0 #[b Como] cliente registrado en la tienda virtual.
+              p.mb-0 #[b Quiero] aplicar un código de descuento promocional en la pantalla de pago.
               p.mb-0 #[b Para] obtener un beneficio económico en el total de mi compra.
         .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
