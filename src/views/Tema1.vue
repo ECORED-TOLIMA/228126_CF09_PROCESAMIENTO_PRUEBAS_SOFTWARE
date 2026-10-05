@@ -17,7 +17,7 @@
           figure
             img(src='@/assets/curso/t1/img-01.svg', alt='')
 
-      Separador
+      Separador 
 
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.1 Concepto de pruebas de <em><em>software</em></em>
