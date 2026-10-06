@@ -483,6 +483,10 @@
           figure.movil.mb-0
             img(src='@/assets/curso/t5/figura-1-2.svg', alt='Figura 4 que ilustra la arquitectura de diseño y desarrollo <em>web</em>, mostrando la integración entre la estructura semántica en HTML5, la maquetación responsiva con CSS3 mediante Flexbox y Grid, la lógica interactiva en JavaScript, la comunicación segura mediante HTTPS y el renderizado final evaluado mediante las métricas Core <em>Web</em> Vitals.')
 
+
+
+
+
 </template>
 
 <script>
